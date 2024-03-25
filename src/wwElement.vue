@@ -28,6 +28,7 @@ export default {
         },
     },
     mounted() {
+        console.log("FORKED WW-TEXT 1");
         this.checkListTags(this.content['_ww-text_text']);
     },
     /* wwEditor:end */
