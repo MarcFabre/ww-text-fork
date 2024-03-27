@@ -27,11 +27,13 @@ export default {
             this.checkListTags(this.content['_ww-text_text']);
         },
     },
-    mounted() {
-        console.log("FORKED WW-TEXT 2");
-        this.checkListTags(this.content['_ww-text_text']);
-    },
     /* wwEditor:end */
+    mounted() {
+        console.log("FORKED WW-TEXT 3");
+        /* wwEditor:start */
+        this.checkListTags(this.content['_ww-text_text']);
+        /* wwEditor:end */
+    },
     methods: {
         /* wwEditor:start */
         checkListTags(text) {
